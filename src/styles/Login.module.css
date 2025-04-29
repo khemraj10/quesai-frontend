@@ -1,15 +1,10 @@
-body {
-  background: linear-gradient(to right, #6a1b9a, #ab47bc);
+.container {
+  display: flex;
   margin: 0;
+  background: linear-gradient(to right, #6a1b9a, #ab47bc);
   font-family: Arial, sans-serif;
   height: 100vh;
   width: 100vw;
-}
-
-.container {
-  display: flex;
-  height: 100vh;
-  width: 100%;
 }
 
 .leftSection {
