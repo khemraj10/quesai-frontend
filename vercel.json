@@ -1,8 +1,9 @@
 {
-  "rewrites": [
-    {
-      "source": "/api/:match*",
-      "destination": "https://your-backend.vercel.app/api/:match*"
+  "projects": {
+    "frontend": {
+      "source": "frontend",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build"
     }
-  ]
+  }
 }
