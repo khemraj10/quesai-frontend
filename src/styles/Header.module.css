@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.875rem 1.5rem;
+}
+
+.title {
+  font-size: 2rem;
+  display: flex;
+  color: #6a1b9a;
+  font-weight: bold;
+}
+
+.ai {
+  font-weight: normal;
+}
+
+.icons {
+  font-size: 1.5rem;
+  display: flex;
+}
+
+.settingsIcon {
+  padding: 0.3rem;
+}
+
+.notificationIcon {
+  padding: 0.3rem;
+}

@@ -1,0 +1,44 @@
+.projectContainer {
+  padding: 0.875rem, 1.5rem;
+}
+
+.projectContainer h1 {
+  font-weight: bold;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  text-align: center;
+  display: flex;
+  width: fit-content;
+}
+
+.card h3 {
+  font-size: 0.8rem;
+  padding: 0.5rem 1.5rem 0 0;
+  font-weight: 700;
+}
+
+.card div div p {
+  font-size: 0.5rem;
+  color: #000;
+}
+
+.card div p {
+  font-size: 0.5rem;
+  color: gray;
+}
+
+.icon {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

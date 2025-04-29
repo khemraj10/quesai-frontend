@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  padding: 20px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.projectsTitle {
+  font-size: 1.5rem;
+  color: #6a1b9a;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.createButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 5px 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  margin-top: 1.5rem;
+}
+
+.projectsContainer {
+  font-size: 2rem;
+  color: #6a1b9a;
+  padding: 0.875rem 1.5rem;
+}

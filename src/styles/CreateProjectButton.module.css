@@ -1,0 +1,30 @@
+.mainContent {
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #6a1b9a;
+}
+
+.description {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.createButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 5px 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  font-size: 1rem;
+  font-weight: 500;
+}
