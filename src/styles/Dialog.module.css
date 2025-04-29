@@ -38,12 +38,12 @@
   gap: 0.5rem;
 }
 
-.modalBody label {
+.modalBody > label {
   color: gray;
   font-size: 0.875rem;
 }
 
-.modalBody input {
+.modalBody > input {
   font-size: 1rem;
   border: 1px solid gray;
   padding: 5px 10px;

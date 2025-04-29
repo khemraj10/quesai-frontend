@@ -6,7 +6,7 @@
   flex: 1;
 }
 
-.header svg {
+.header > svg {
   margin-right: 10px;
 }
 
@@ -36,7 +36,7 @@
   display: flex;
 }
 
-.transcript-textarea:focus {
+.transcriptTextarea:focus {
   outline: none;
   border-color: #007bff; /* Change the border color on focus */
 }

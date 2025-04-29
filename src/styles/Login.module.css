@@ -20,19 +20,19 @@ body {
   padding: 2.5rem 5rem;
 }
 
-.leftSection h1 {
+.leftSection > h1 {
   font-size: 2.5rem;
   margin: 0;
   text-align: left;
 }
 
-.leftSection h2 {
+.leftSection > h2 {
   font-size: 2.5rem;
   padding-top: 2.5rem;
   width: 280px;
 }
 
-.leftSection p {
+.leftSection > p {
   width: 250px;
   padding-top: 1rem;
 }
@@ -47,7 +47,7 @@ body {
   padding: 3rem 2rem 0;
 }
 
-.rightSection h2 {
+.rightSection > h2 {
   margin-bottom: 20px;
   color: #6a1b9a;
   font-size: 2rem;
@@ -55,7 +55,7 @@ body {
   width: 200px;
 }
 
-.rightSection h2 span {
+.rightSection > h2 > span {
   font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ body {
   max-width: 300px;
 }
 
-.form input {
+.form > input {
   margin-bottom: 10px;
   padding: 10px;
   border: 1px solid #ccc;
@@ -90,11 +90,11 @@ body {
   justify-content: space-between;
 }
 
-.rememberMe div input {
+.rememberMe > div > input {
   margin-right: 5px;
 }
 
-.rememberMe button {
+.rememberMe > button {
   color: blue;
   font-size: 0.8rem;
 }
