@@ -1,8 +1,8 @@
 {
-  "rewrites": [
+  "builds": [
     {
-      "source": "/api/:match*",
-      "destination": "https://your-backend.vercel.app/api/:match*"
+      "src": "ques-ai/package.json",
+      "use": "@vercel/node"
     }
   ]
 }
