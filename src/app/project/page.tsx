@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+// import { useState } from "react";
 import Header from "@/components/Header";
 import ProjectCard from "@/components/ProjectCard";
 import styles from "../../styles/project.module.css";
@@ -10,7 +10,8 @@ import Link from "next/link";
 const data = [{ title: "Sample Project", files: 4, lastEdited: "a week ago" }];
 
 const Projects = () => {
-  const [projects, setProjects] = useState(data);
+  // const [projects, setProjects] = useState(data);
+  const projects = data;
 
   return (
     <div className={styles.container}>
