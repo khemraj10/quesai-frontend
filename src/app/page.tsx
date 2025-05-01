@@ -18,9 +18,9 @@ export default function Home() {
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) {
-      router.replace("/project");
+      router.push("/project");
     } else {
-      router.replace("/login");
+      router.push("/login");
     }
   }, [router]);
 

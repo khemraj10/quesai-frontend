@@ -85,7 +85,11 @@ const Login: React.FC = () => {
             <button>Forgot Password?</button>
           </div>
           {error && <p className="error-message">{error}</p>}
-          <button type="submit" disabled={isLoading}>
+          <button
+            type="submit"
+            disabled={isLoading}
+            className={`${styles.loginButton}`}
+          >
             {isLoading ? "Logging in..." : "Login"}
           </button>
           <div className={styles.divider}>
