@@ -1,8 +1,0 @@
-{
-  "builds": [
-    {
-      "src": "ques-ai/package.json",
-      "use": "@vercel/node"
-    }
-  ]
-}
